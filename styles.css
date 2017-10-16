@@ -80,6 +80,40 @@ body .priority_4 .ist_checkbox {
   margin-top:    0 !important;
 }
 
+/* Cores das prioridades no canto direito
+   A ordem das prioridades é invertida com
+   o que utilizamos no Todoist */
+.priority_2 {
+  box-shadow: inset -2px 0 0 #fcc12b !important;
+}
+
+.priority_3 {
+  box-shadow: inset -2px 0 0 #f8801c !important;
+}
+
+.priority_4 {
+  box-shadow: inset -2px 0 0 #d04949 !important;
+}
+
+/* Alteração das cores dos checkboxes
+   para a cor padrão para dar ênfase
+   as cores utilizadas na borda à direita */
+.priority_1 .ist_checkbox,
+.priority_2 .ist_checkbox,
+.priority_3 .ist_checkbox,
+.priority_4 .ist_checkbox {
+  border-color:     #ddd !important;
+  background-color: transparent !important;
+}
+
+.priority_1 .ist_checkbox:hover,
+.priority_2 .ist_checkbox:hover,
+.priority_3 .ist_checkbox:hover,
+.priority_4 .ist_checkbox:hover {
+  background-color: #f1f1f1 !important;
+}
+
+
 
 /**
  * Melhorias na exibição do horário da tarefa.
