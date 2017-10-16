@@ -271,10 +271,19 @@ img.emoji[alt="🗑"] {
  * =====================================================
  */
 code {
-  background-color: #f1f1f1;
-  font-size:        12px;
+  background-color: #f1f1f1 !important;
+  font-size:        12px !important;
 }
 
 .code_inline {
-  padding: 2px;
+  padding: 2px !important;
+}
+
+
+/**
+ * Alinhamento da caixa Busca Rápida
+ * =====================================================
+ */
+#quick_find {
+  margin-left: 296px !important;
 }
