@@ -169,6 +169,62 @@ body .priority_4 .ist_checkbox {
 
 
 /**
+ * Melhorias nas tasks
+ * =====================================================
+ */
+
+/* Margem para distanciar as tasks
+   Assim as barras de prioridade não ficam grudadas
+   após as alterações realizadas acima. */
+.task_item {
+  margin-bottom: 2px !important;
+}
+
+/* Alinhamento do ícone de menu da task */
+.task_item td.menu {
+  padding-top: 12px !important;
+}
+
+.task_item .content.task_content_item {
+  font-size: 13.5px !important;
+}
+
+#agenda_view .column_project {
+  padding-bottom: 11px !important;
+  padding-top:    12px !important;
+}
+
+#agenda_view .project {
+  padding-top: 12px !important;
+}
+
+#agenda_view .checker {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* Diminuindo padding dos indents */
+#editor .items .indent_2 {
+  padding-left: 20px !important;
+}
+
+#editor .items .indent_3 {
+  padding-left: 48px !important
+}
+
+#editor .items .indent_4 {
+  padding-left: 77px !important
+}
+
+#editor .items .indent_5 {
+  padding-left: 104px !important
+}
+
+.label {
+  line-height: .8;
+}
+
+
+/**
  * Área de trabalho do Todoist
  * =====================================================
  *
@@ -202,27 +258,6 @@ img.emoji {
 
 span.emoji {
   font-size: 14px !important;
-}
-
-
-/**
- * Melhorias nas tasks
- * =====================================================
- */
-.task_item td.menu {
-  padding-top: 12px !important;
-}
-
-.task_item .content.task_content_item {
-  font-size: 13.5px;
-}
-
-#agenda_view .project {
-  padding-top: 12px !important;
-}
-
-#quick_find {
-  margin-left: 288px !important;
 }
 
 
