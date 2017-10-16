@@ -114,7 +114,6 @@ body .priority_4 .ist_checkbox {
 }
 
 
-
 /**
  * Melhorias na exibição do horário da tarefa.
  * =====================================================
@@ -130,6 +129,25 @@ body .priority_4 .ist_checkbox {
   min-width:    inherit           !important;
   padding:      0 2px 1px 3px     !important;
   text-align:   center            !important;
+}
+
+
+/**
+ * Tamanho do círculo dos projetos
+ * =====================================================
+ */
+
+/* Projetos nas tasks */
+.project_item__color {
+  width:         8px !important;
+  height:        8px !important;
+  border-radius: 8px !important;
+  margin-top:    5px !important;
+}
+
+/* Projetos na sidebar */
+.counter_color {
+  font-size: 11px !important;
 }
 
 
@@ -188,25 +206,6 @@ span.emoji {
 
 #quick_find {
   margin-left: 288px !important;
-}
-
-
-/**
- * Tamanho do círculo dos projetos
- * =====================================================
- */
-
-/* Projetos nas tasks */
-.project_item__color {
-  width:         8px !important;
-  height:        8px !important;
-  border-radius: 8px !important;
-  margin-top:    5px !important;
-}
-
-/* Projetos na sidebar */
-.counter_color {
-  font-size: 11px !important;
 }
 
 
