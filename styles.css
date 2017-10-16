@@ -252,12 +252,17 @@ body .priority_4 .ist_checkbox {
  * =====================================================
  */
 img.emoji {
-  width:  14px !important;
-  height: 14px !important;
+  width:  15px !important;
+  height: 15px !important;
 }
 
 span.emoji {
-  font-size: 14px !important;
+  font-size: 15px !important;
+}
+
+/* Correção manual para ícone de lixeira */
+img.emoji[alt="🗑"] {
+  vertical-align: sub !important;
 }
 
 
