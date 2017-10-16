@@ -1,0 +1,147 @@
+/**
+ * Usando Google Fonts
+ * =====================================================
+ *
+ * Ainda em dúvida entre PT Sans e Source Sans Pro.
+ * No Windows 10, o PT Sans se mostrou excelente, sem a
+ * necessidade de importar a fonte bold, pois a normal
+ * já atendeu muito bem o negrito.
+ */
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Source+Sans+Pro');
+
+body {
+  font-family: "PT Sans","Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+
+/**
+ * Melhorias no checkbox das tarefas.
+ * =====================================================
+ */
+body .priority_1 .ist_checkbox,
+body .priority_2 .ist_checkbox,
+body .priority_3 .ist_checkbox,
+body .priority_4 .ist_checkbox {
+  width:  16px !important;
+  height: 16px !important;
+}
+
+body .priority_2 .ist_checkbox,
+body .priority_3 .ist_checkbox,
+body .priority_4 .ist_checkbox {
+  border-width: 1px !important;
+}
+
+.ist_checkbox {
+  border-radius: 0 !important;
+  margin-top:    0 !important;
+}
+
+
+/**
+ * Melhorias na exibição do horário da tarefa.
+ * =====================================================
+ */
+.agenda_item__time {
+  border:       1px solid #d1d1d1;
+  font-weight:  600 !important;
+  font-size:    11px !important;
+  height:       15px !important;
+  line-height:  1.5 !important;
+  margin-right: 5px;
+  margin-top:   1px;
+  min-width:    inherit !important;
+  padding:      0 2px 1px 3px !important;
+  text-align:   center;
+}
+
+
+/**
+ * Área de trabalho do Todoist
+ * =====================================================
+ *
+ * TODO: Tornar responsiva essa regra.
+ */
+#left_menu {
+  width: 230px !important;
+}
+
+#content {
+  margin-left: 239px !important;
+}
+
+#editor {
+  width: 645px !important;
+}
+
+#list_holder {
+  width: 230px !important;
+}
+
+
+/**
+ * Diminuindo tamanho dos emojis
+ * =====================================================
+ */
+img.emoji {
+  width:  14px !important;
+  height: 14px !important;
+}
+
+span.emoji {
+  font-size: 14px !important;
+}
+
+
+/**
+ * Melhorias nas tasks
+ * =====================================================
+ */
+.task_item td.menu {
+  padding-top: 12px !important;
+}
+
+.task_item .content.task_content_item {
+  font-size: 13.5px;
+}
+
+#agenda_view .project {
+  padding-top: 12px !important;
+}
+
+#quick_find {
+  margin-left: 288px !important;
+}
+
+
+/**
+ * Tamanho do círculo dos projetos
+ * =====================================================
+ */
+
+/* Projetos nas tasks */
+.project_item__color {
+  width:         8px !important;
+  height:        8px !important;
+  border-radius: 8px !important;
+  margin-top:    5px !important;
+}
+
+/* Projetos na sidebar */
+.counter_color {
+  font-size: 11px !important;
+}
+
+
+/**
+ * Code
+ * =====================================================
+ */
+code {
+  background-color: #f1f1f1;
+  font-size:        12px;
+}
+
+.code_inline {
+  padding: 2px;
+}
