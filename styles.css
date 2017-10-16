@@ -152,6 +152,23 @@ body .priority_4 .ist_checkbox {
 
 
 /**
+ * Diminuir distância do círculo e do nome do projeto
+ * =====================================================
+ */
+.generic_left_list li table td {
+  padding-left: 0 !important;
+}
+
+.generic_left_list .indent_2 {
+  padding-left: 17px !important;
+}
+
+.td_color {
+  min-width: 14px !important;
+}
+
+
+/**
  * Área de trabalho do Todoist
  * =====================================================
  *
