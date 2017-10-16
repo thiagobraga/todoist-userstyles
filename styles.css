@@ -131,6 +131,11 @@ body .priority_4 .ist_checkbox {
   text-align:   center            !important;
 }
 
+/* Suavizando cor do horário de tasks atrasadas */
+#agenda_view .agenda_item__time_overdue span {
+  color: #d04949 !important;
+}
+
 
 /**
  * Tamanho do círculo dos projetos
