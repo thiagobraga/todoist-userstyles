@@ -182,7 +182,8 @@ body .priority_4 .ist_checkbox {
    Assim as barras de prioridade não ficam grudadas
    após as alterações realizadas acima. */
 .task_item {
-  margin-bottom: 2px !important;
+  margin-top:    1px !important;
+  margin-bottom: 1px !important;
 }
 
 /* Alinhamento do ícone de menu da task */
