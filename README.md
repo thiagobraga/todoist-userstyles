@@ -1,7 +1,7 @@
 # Stylish Todoist
 
 Todoist styles for better appearance.  
-Updated to version 877.  
+Updated to version 878.  
 https://userstyles.org/styles/145685/todoist-thiago-braga  
 
 ## TODO
