@@ -1,11 +1,6 @@
-/**
- * Usando Google Fonts
- * =====================================================
- *
- * O PT Sans se mostrou uma ótima fonte, tanto no Windows
- * quanto no Linux, sem a necessidade de importar a fonte
- * bold, pois a normal já atendeu muito bem o negrito.
- */
+@-moz-document domain('todoist.com') {
+
+/* PT Sans font */
 @font-face {
   font-family: 'PT Sans';
   font-style:  normal;
@@ -41,10 +36,7 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 
-body,
-input,
-select,
-.richtext_editor {
+* {
   font-family: 'PT Sans', 
     -apple-system,
     BlinkMacSystemFont,
@@ -60,52 +52,63 @@ select,
 
 
 /**
+ * 
+ * =====================================================
+ */
+#editor {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#agenda_view .view_header {
+  margin-left: 28px;
+}
+
+.section_header,
+.subsection_header {
+  margin-right: 0;
+  padding-left: 28px !important;
+}
+
+
+/**
  * Melhorias no checkbox das tarefas.
  * =====================================================
  */
+
+/* Diminuindo tamanho dos checkboxes e removendo border-radius */
 body .priority_1 .ist_checkbox,
 body .priority_2 .ist_checkbox,
 body .priority_3 .ist_checkbox,
 body .priority_4 .ist_checkbox {
-  width:  16px !important;
-  height: 16px !important;
+  border-radius: 0;
+  width:         16px !important;
+  height:        16px !important;
 }
 
+/* Diminuindo borda dos checkboxes com prioridade */
 body .priority_2 .ist_checkbox,
 body .priority_3 .ist_checkbox,
 body .priority_4 .ist_checkbox {
   border-width: 1px !important;
 }
 
-.ist_checkbox {
-  border-radius: 0 !important;
-  margin-top:    0 !important;
-}
+/* Cores das prioridades à esquerda como no aplicativo mobile */
+.priority_2 { box-shadow: inset 1px 0 0 #fcc12b !important; }
+.priority_3 { box-shadow: inset 1px 0 0 #f8801c !important; }
+.priority_4 { box-shadow: inset 1px 0 0 #d04949 !important; }
 
-/* Cores das prioridades no canto direito.
-   A ordem das prioridades é invertida com
-   o que utilizamos no Todoist */
-.priority_2 {
-  box-shadow: inset -2px 0 0 #fcc12b !important;
-}
-
-.priority_3 {
-  box-shadow: inset -2px 0 0 #f8801c !important;
-}
-
-.priority_4 {
-  box-shadow: inset -2px 0 0 #d04949 !important;
-}
-
-/* Alteração das cores dos checkboxes
-   para a cor padrão para dar ênfase
-   as cores utilizadas na borda à direita */
+/* Fundo transparente para checkboxes */
 .priority_1 .ist_checkbox,
 .priority_2 .ist_checkbox,
 .priority_3 .ist_checkbox,
 .priority_4 .ist_checkbox {
-  border-color:     #ddd        !important;
   background-color: transparent !important;
+}
+
+/* Cor da borda mais clara para tasks sem priroridade (p4) */
+.priority_1 .ist_checkbox {
+  border-color: #ddd !important;
 }
 
 .priority_1 .ist_checkbox:hover,
@@ -144,7 +147,7 @@ body .priority_4 .ist_checkbox {
  * =====================================================
  */
 
-/* Projetos nas tasks */
+/* Projects in tasks */
 .project_item__color {
   width:         8px !important;
   height:        8px !important;
@@ -152,7 +155,7 @@ body .priority_4 .ist_checkbox {
   margin-top:    5px !important;
 }
 
-/* Projetos na sidebar */
+/* Projects in sidebar */
 .counter_color {
   font-size: 11px !important;
 }
@@ -180,12 +183,8 @@ body .priority_4 .ist_checkbox {
  * =====================================================
  */
 
-/* Margem para distanciar as tasks
-   Assim as barras de prioridade não ficam grudadas
-   após as alterações realizadas acima. */
 .task_item {
-  margin-top:    1px !important;
-  margin-bottom: 1px !important;
+  padding-left: 30px !important;
 }
 
 /* Alinhamento do ícone de menu da task */
@@ -198,37 +197,25 @@ body .priority_4 .ist_checkbox {
 }
 
 #agenda_view .column_project {
-  padding-bottom: 11px !important;
   padding-top:    12px !important;
+  padding-bottom: 11px !important;
 }
 
 #agenda_view .project {
   padding-top: 12px !important;
 }
 
-#agenda_view .checker {
-  border-bottom: 1px solid #f0f0f0;
-}
-
-/* Diminuindo padding dos indents */
-#editor .items .indent_2 {
-  padding-left: 20px !important;
-}
-
-#editor .items .indent_3 {
-  padding-left: 48px !important
-}
-
-#editor .items .indent_4 {
-  padding-left: 77px !important
-}
-
-#editor .items .indent_5 {
-  padding-left: 104px !important
-}
-
 .label {
   line-height: .8;
+}
+
+
+/**
+ * Alinhamento da caixa Busca Rápida
+ * =====================================================
+ */
+#quick_find {
+  margin-left: 296px !important;
 }
 
 
@@ -239,7 +226,7 @@ body .priority_4 .ist_checkbox {
  * TODO: Tornar responsiva essa regra.
  */
 #left_menu {
-  width: 230px !important;
+  width: 228px !important;
 }
 
 #content {
@@ -247,7 +234,7 @@ body .priority_4 .ist_checkbox {
 }
 
 #editor {
-  width: 645px !important;
+  width: 690px !important;
 }
 
 #list_holder {
@@ -259,30 +246,6 @@ body .priority_4 .ist_checkbox {
  * Diminuindo tamanho dos emojis
  * =====================================================
  */
-
-/* macOS
-
-For macOS we want to apply rules for `span.emoji > span` because of the HTML structure:
-
-```
-<span class="emoji">
-  <span class="${class_name}">🎧</span>
-</span>
-```
-*/
-
-span.emoji > span {
-  font-size: 12px !important;
-
-  /* We need to correct the margins too */
-  margin-right: 5px;
-}
-
-span.emoji + span.emoji > span {
-  margin-left: -5px;
-}
-
-/* Rules for Linux */
 span.emoji {
   font-size: 15px !important;
 }
@@ -313,10 +276,36 @@ code {
 }
 
 
-/**
- * Alinhamento da caixa Busca Rápida
- * =====================================================
- */
-#quick_find {
-  margin-left: 296px !important;
+/* TODO: Organize */
+.agenda_add_task {
+  padding-left: 30px !important;
+}
+
+#editor .action_add_item {
+  padding-left: 28px !important;
+}
+
+li.agenda_add_task {
+  margin-left: 28px;
+}
+
+/* Indent */
+#editor .items .indent_1 {
+  padding-left: 30px !important;
+}
+
+#editor .items .indent_2 {
+  padding-left: 50px !important;
+}
+
+
+.items .service_icon {
+  margin-right: -1px !important;
+}
+
+.cmp_email {
+  background-position: -3px -1179px !important;
+  width:               16px !important;
+  height:              16px !important;
+}
 }
