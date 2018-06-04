@@ -1,8 +1,18 @@
 # Stylish Todoist
 
 Todoist styles for better appearance.  
-Updated to version 878.  
+Updated to version 904.  
 https://userstyles.org/styles/145685/todoist-thiago-braga  
+
+## Contents
+
+- Smaller project circles
+- Using PT Sans font
+- Smaller font
+- Smaller emojis
+- Smaller and squared tasks checkbox
+- More emphasis on the task time
+- Priorities border in the left like mobile app
 
 ## TODO
 
