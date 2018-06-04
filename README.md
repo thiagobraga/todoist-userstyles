@@ -1,6 +1,6 @@
 # Better Todoist
 
-Todoist styles for better appearance. Updated to version 904.  
+Better appearance for Todoist v904.
 https://userstyles.org/styles/145685/todoist-thiago-braga  
 
 ## Contents
