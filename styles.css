@@ -1,5 +1,4 @@
-@-moz-document domain('todoist.com') {
-
+@-moz-document domain("todoist.com") {
 /* PT Sans font */
 @font-face {
   font-family: 'PT Sans';
@@ -66,8 +65,9 @@
 
 .section_header,
 .subsection_header {
-  margin-right: 0;
-  padding-left: 28px !important;
+  margin-right:  0;
+  padding-left:  28px !important;
+  padding-right: 28px;
 }
 
 
@@ -206,7 +206,9 @@ body .priority_4 .ist_checkbox {
 }
 
 .label {
+  display:     block;
   line-height: .8;
+  margin-top:  2px;
 }
 
 
@@ -308,4 +310,5 @@ li.agenda_add_task {
   width:               16px !important;
   height:              16px !important;
 }
+
 }
