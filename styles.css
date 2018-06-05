@@ -205,10 +205,8 @@ body .priority_4 .ist_checkbox {
   padding-top: 12px !important;
 }
 
-.label {
-  display:     block;
-  line-height: .8;
-  margin-top:  2px;
+.labels_holder {
+  margin-top: -4px;
 }
 
 
@@ -310,5 +308,4 @@ li.agenda_add_task {
   width:               16px !important;
   height:              16px !important;
 }
-
 }
