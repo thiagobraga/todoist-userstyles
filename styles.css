@@ -295,7 +295,11 @@ li.agenda_add_task {
 }
 
 #editor .items .indent_2 {
-  padding-left: 50px !important;
+  padding-left: 55px !important;
+}
+
+#editor .items .indent_3 {
+  padding-left: 80px !important;
 }
 
 
