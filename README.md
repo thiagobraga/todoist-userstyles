@@ -11,7 +11,6 @@ https://userstyles.org/styles/145685/todoist-thiago-braga
 ✔ Smaller emojis  
 ✔ Squared tasks checkbox  
 ✔ Emphasis on the task time  
-✔ Priorities border in the left like mobile app  
 ✔ Tested in Ubuntu 18.04
 
 ## Screenshots
@@ -31,3 +30,7 @@ https://userstyles.org/styles/145685/todoist-thiago-braga
     width="85%"
     alt="Better Todoist by @bragasociopata">
 </p>
+
+## TODO
+
+- [ ] Priorities border in the left like mobile app  
