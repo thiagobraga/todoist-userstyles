@@ -6,12 +6,12 @@ https://userstyles.org/styles/145685/todoist-thiago-braga
 
 ## Contents
 
-✔ Using PT Sans font  
-✔ Smaller project circles  
-✔ Smaller emojis  
-✔ Squared tasks checkbox  
-✔ Emphasis on the task time  
-✔ Tested in Ubuntu 18.04
+- Using PT Sans font  
+- Smaller project circles  
+- Smaller emojis  
+- Squared tasks checkbox  
+- Emphasis on the task time  
+- Tested in Ubuntu 18.04
 
 ## Install
 
