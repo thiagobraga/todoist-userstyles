@@ -1,6 +1,7 @@
 # Better Todoist
 
-Better appearance for Todoist. Updated for v948.  
+✅ A better theme for Todoist  
+Updated for v948  
 https://userstyles.org/styles/145685/todoist-thiago-braga  
 
 ## Contents
