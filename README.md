@@ -1,7 +1,6 @@
 # Better Todoist
 
-Better appearance for Todoist.  
-Updated for v915.  
+Better appearance for Todoist. Updated for v948.  
 https://userstyles.org/styles/145685/todoist-thiago-braga  
 
 ## Contents
@@ -11,7 +10,7 @@ https://userstyles.org/styles/145685/todoist-thiago-braga
 - Smaller emojis  
 - Squared tasks checkbox  
 - Emphasis on the task time  
-- Tested in Ubuntu 18.04
+- Tested in Ubuntu 18.04.5, Windows 10 and Mac OS Mojave
 
 ## Install
 
@@ -39,7 +38,3 @@ To use this style you have to install [Stylus](https://add0n.com/stylus.html) an
     width="85%"
     alt="Better Todoist by @bragasociopata">
 </p>
-
-## TODO
-
-- [ ] Priorities border in the left like mobile app  
