@@ -69,17 +69,15 @@ body .priority_4 .ist_checkbox {
     border-bottom-color: rgba(255,255,255,0.03);
   }
 
+  > #content .items .task_item td.checker,
+  > #content .project_history .task_item td.checker,
+  > #content .items .task_item .task_content_item,
+  > #content .project_history .task_item .task_content_item,
+  > #content .items .task_item .content,
+  > #content .project_history .task_item .content,
+  > #content .items .task_item .td_due_date,
+  > #content .project_history .task_item .td_due_date {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
 }
 
-// Priority colors in the left, like the mobile app
-// .priority_2 {
-//   box-shadow: inset 1px 0 0 #fcc12b !important;
-// }
-
-// .priority_3 {
-//   box-shadow: inset 1px 0 0 #f8801c !important;
-// }
-
-// .priority_4 {
-//   box-shadow: inset 1px 0 0 #d04949 !important;
-// }
