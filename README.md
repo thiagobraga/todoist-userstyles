@@ -20,7 +20,7 @@ To use this style you have to install [Stylus](https://add0n.com/stylus.html) an
 [![Install directly with Stylus][badge]][style]
 
 [badge]: https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true&style=for-the-badge
-[style]: https://raw.githubusercontent.com/thiagobraga/better-todoist/master/release/theme.user.css
+[style]: https://raw.githubusercontent.com/thiagobraga/todoist-userstyles/master/release/theme.user.css
 
 ## Screenshots
 
