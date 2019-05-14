@@ -10,7 +10,7 @@
     "namespace": "https://github.com/thiagobraga",
     "homepageURL": "https://github.com/thiagobraga/todoist-userstyles",
     "supportURL": "https://github.com/thiagobraga/todoist-userstyles/issues",
-    "updateBaseURL": "https://github.com/thiagobraga/todoist-userstyles/raw/master/release/",
+    "updateBaseURL": "https://github.com/thiagobraga/todoist-userstyles/raw/master/dist/release/",
     "match": {
       "domain": "todoist.com"
     }
