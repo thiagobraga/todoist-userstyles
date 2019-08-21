@@ -1,0 +1,23 @@
+//
+// Improvements in task time display.
+//
+
+// Show task time inside a box with smaller font size.
+.agenda_item__time
+  border 1px solid #d1d1d1
+  font-size 11px
+  margin-right 8px
+  min-width inherit !important
+  padding-left 5px
+
+// Correcting time height according to task checkbox.
+#agenda_view .column_time div
+  line-height 16px
+
+// For theme dark, use a slightly darker color.
+.theme_dark .agenda_item__time
+  border-color #666
+
+// Smoothing color of delayed tasks
+#agenda_view .agenda_item__time_overdue span
+  color #d04949 !important

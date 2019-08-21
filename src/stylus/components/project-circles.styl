@@ -1,0 +1,24 @@
+// Size of the project circles
+// =====================================================
+$size = 8px
+
+// Project circles in task list
+.project_item__color
+  border-radius $size
+  width $size
+  height $size
+
+  // After resizing, the icon margin needs to be corrected.
+  margin-top 5px
+
+// Project circles in sidebar
+.projectbefore
+  #projects_list &
+  #projects_archived_ul &
+  #ist_complete_result &
+    width $size
+    height $size
+
+// Decrease distance from circle and project name in sidebar
+.generic_left_list li table td.td_color
+  min-width 28px

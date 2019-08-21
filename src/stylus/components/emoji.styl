@@ -1,0 +1,25 @@
+// Decreasing emojis size
+$emoji-size = 12px
+
+span.emoji
+  font-size $emoji-size
+
+img.emoji
+  width  $emoji-size
+  height $emoji-size
+
+// In the task list, for projects with emojis in the name,
+// I use a 80% smaller size of the emoji.
+.project_item__name
+  $emoji-size = $emoji-size * 0.8
+
+  span.emoji
+    font-size $emoji-size
+
+  img.emoji
+    width  $emoji-size
+    height $emoji-size
+
+// Decrease the size of user icon on shared projects
+.project_shared svg
+  transform scale(0.8)
