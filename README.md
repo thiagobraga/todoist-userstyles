@@ -19,12 +19,8 @@
 
 ## Installation
 
-1. Install [Stylus][stylus-addon]
-2. Then <a href="https://raw.githubusercontent.com/thiagobraga/todoist-userstyles/master/theme.user.css"><img src="https://img.shields.io/badge/Install%20directly%20with-Stylus-lightgrey.svg?longCache=true&logo=todoist&logoColor=f1f1f1" align="center" alt="Install directly with Stylus extension" /></a>
-
-[stylus-addon]: https://add0n.com/stylus.html
-[badge]: https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true
-[style]: https://raw.githubusercontent.com/thiagobraga/google-calendar-userstyles/master/theme.user.css
+1. Install [Stylus](https://add0n.com/stylus.html)
+2. Then <a href="https://raw.githubusercontent.com/thiagobraga/gmail-userstyles/master/theme.user.css"><img src="https://img.shields.io/badge/install%20directly%20with-Stylus-red.svg?longCache=true&logoColor=f1f1f1" align="center" alt="Install directly with Stylus extension" /></a>
 
 ## Development
 
