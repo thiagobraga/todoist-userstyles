@@ -39,7 +39,7 @@ make
 <h3 align="center">Dark theme</h3>
 
 <p align="center">
-  <img src="/screenshots/preview-dark.png"
+  <img src="./screenshots/preview-dark.png"
     alt="Better Todoist by @bragasociopata"
     height="550">
 </p>
@@ -47,7 +47,7 @@ make
 <h3 align="center">Neutral theme</h3>
 
 <p align="center">
-  <img src="/screenshots/preview-neutral.png"
+  <img src="./screenshots/preview-neutral.png"
     alt="Better Todoist by @bragasociopata"
     height="550">
 </p>
