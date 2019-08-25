@@ -6,8 +6,8 @@
 
 <p align="center">
   ✔ Improvements for Todoist<br>
-  <a href="https://raw.githubusercontent.com/thiagobraga/todoist-userstyles/master/theme.user.css" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true" align="center" alt="Install directly with Stylus extension" /></a>
-  <a href="https://raw.githubusercontent.com/thiagobraga/todoist-userstyles/master/theme.user.css" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/version-0.4.1-red.svg" align="center" alt="Version 0.4.1"></a>
+  <a href="https://raw.githubusercontent.com/thiagobraga/todoist-userstyles/master/theme.user.css"><img src="https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true" align="center" alt="Install directly with Stylus extension" /></a>
+  <a href="https://raw.githubusercontent.com/thiagobraga/todoist-userstyles/master/theme.user.css"><img src="https://img.shields.io/badge/version-0.4.1-red.svg" align="center" alt="Version 0.4.1"></a>
 </p>
 
 ## Contents
@@ -20,7 +20,7 @@
 ## Install
 
 1. Install [Stylus][stylus-addon]
-2. Then <a href="https://raw.githubusercontent.com/thiagobraga/todoist-userstyles/master/theme.user.css" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true" align="center" alt="Install directly with Stylus extension" /></a>
+2. Then <a href="https://raw.githubusercontent.com/thiagobraga/todoist-userstyles/master/theme.user.css"><img src="https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true" align="center" alt="Install directly with Stylus extension" /></a>
 
 [stylus-addon]: https://add0n.com/stylus.html
 [badge]: https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true
