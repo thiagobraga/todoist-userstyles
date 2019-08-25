@@ -5,24 +5,22 @@
 </h1>
 
 <p align="center">
-  ✅ Improvements for Todoist<br>
+  ✔ Improvements for Todoist<br>
   <a href="https://raw.githubusercontent.com/thiagobraga/todoist-userstyles/master/theme.user.css">
     <img src="https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true" align="center" alt="Install directly with Stylus extension" />
   </a>
 
   <a href="https://raw.githubusercontent.com/thiagobraga/todoist-userstyles/master/theme.user.css">
-    <img src="https://img.shields.io/badge/version-0.4.1-lightgray.svg" align="center" alt="Version 0.4.1">
+    <img src="https://img.shields.io/badge/version-0.4.1-red.svg" align="center" alt="Version 0.4.1">
   </a>
 </p>
 
 ## Contents
 
-✅ Using PT Sans font  
-✅ Smaller project circles  
-✅ Smaller emojis  
-✅ Squared tasks checkbox  
-✅ Emphasis on the task time  
-✅ Tested in Ubuntu 18.04.5, Windows 10 and Mac OS Mojave
+✔ Squared tasks checkbox  
+✔ Emphasis on the task time  
+✔ Smaller project circles and emojis  
+✔ Using PT Sans from Google Fonts  
 
 ## Install
 
