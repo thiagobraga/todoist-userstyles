@@ -20,8 +20,7 @@
 ## Install
 
 1. Install [Stylus][stylus-addon]
-2. Then [install directly with Stylus][style] or click on the button below:  
-  [![Install directly with Stylus][badge]][style]
+2. Then <a href="https://raw.githubusercontent.com/thiagobraga/todoist-userstyles/master/theme.user.css" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true" align="center" alt="Install directly with Stylus extension" /></a>
 
 [stylus-addon]: https://add0n.com/stylus.html
 [badge]: https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true
