@@ -1,25 +1,29 @@
-//
-// Todoist desktop
-// =====================================================
-//
-$compensation = 35px
-$left-size = 265px - $compensation
-$content-margin = 284px - $compensation
+$sidebarLeft = 230px
+$editorPadding = 39px
 
 #left_menu
 #list_holder
-  width $left-size
+  width $sidebarLeft
 
 #content
-  margin-left $content-margin
+  margin-left $sidebarLeft
+  width auto
 
+// Padding-right correction for editor
 #editor
-  // Avoid inline style to override width of editor.
-  width auto !important
-
-  // But it need padding-right correction.
   padding-right 0
 
-// Align of quick find after layout modifications
+// Align of top bar elements after layout modifications
+#top_bar_inner
+  padding-left 0
+
+#top_icons
+  padding-right 0
+
+#logo
+  padding-left 4px
+
 #quick_find
-  margin-left 292px
+  margin-left $sidebarLeft + $editorPadding - 5px
+  .quick_find
+    width 460px
