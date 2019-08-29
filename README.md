@@ -7,16 +7,18 @@
 <p align="center">
   Improvements for Todoist<br>
   <a href="https://raw.githubusercontent.com/thiagobraga/todoist-userstyles/master/theme.user.css"><img src="https://img.shields.io/badge/Install%20directly%20with-Stylus-lightgrey.svg?longCache=true&logo=todoist&logoColor=f1f1f1" align="center" alt="Install directly with Stylus extension" /></a>
-  <a href="https://raw.githubusercontent.com/thiagobraga/todoist-userstyles/master/theme.user.css"><img src="https://img.shields.io/badge/version-0.4.3-E03A2C.svg" align="center" alt="Version 0.4.3"></a>
+  <a href="https://raw.githubusercontent.com/thiagobraga/todoist-userstyles/master/theme.user.css"><img src="https://img.shields.io/badge/version-0.4.5-E03A2C.svg" align="center" alt="Version 0.4.5"></a>
   <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=thibraga06%40gmail.com&item_name=Contribuir+para+o+desenvolvimento+de+projetos+open+source&currency_code=BRL&source=url" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/donate-PayPal-0a4ea1.svg" align="center"></a>
 </p>
 
 ## Contents
 
-✔ Squared tasks checkbox  
-✔ Emphasis on the task time  
-✔ Smaller project circles and emojis  
-✔ Using PT Sans from Google Fonts  
+✔ Squared checkboxes for tasks  
+✔ Wide area for tasks list  
+✔ A little emphasis on the task time  
+✔ Smaller project circles  
+✔ Smaller emojis  
+✔ Using PT Sans and PT Mono from Google Fonts  
 
 ## Installation
 
