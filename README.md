@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://www.logospng.com/images/141/todoist-agilebits-blog-141353.png" height="128" /><br>
+  <img src="https://i2.wp.com/cyberpunklibrarian.com/wp-content/uploads/2018/09/todoist-logo.png?ssl=1" height="128" /><br>
   <br>
   Better Todoist
 </h1>
