@@ -2,7 +2,7 @@
   "name": "todoist-userstyles",
   "description": "Improvements for Todoist",
   "author": "Thiago Braga <contato@thiagobraga.org>",
-  "version": "0.4.7",
+  "version": "0.4.8",
   "license": "MIT",
   "private": true,
   "userstyle": {
