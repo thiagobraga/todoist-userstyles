@@ -5,9 +5,8 @@ PATH := ${PWD}/node_modules/.bin:$(PATH)
 all: install build watch
 
 install:
-	[ ! -f package-lock.json ] && npm i && exit
-	[ -f package-lock.json ] && [ ! -d node_modules ] && npm ci && exit
-	[ -f package-lock.json ] && [ -d node_modules ] && echo 'Already installed' && exit
+	[ ! -f yarn.lock ] || [ -d node_modules ] && yarn && exit
+	[ -f yarn.lock ] && [ -d node_modules ] && echo 'Already installed' && exit
 
 build:
 	stylus src/stylus -o theme.css
