@@ -15,7 +15,7 @@ build:
 
 release:
 	stylus -c src/stylus -o theme.css
-	postcss theme.css --use autoprefixer cssnano --replace --no-map
+	postcss theme.css --use autoprefixer --replace --no-map
 	css2userstyle --no-userscript theme.css
 	rm theme.css
 
