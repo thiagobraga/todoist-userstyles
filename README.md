@@ -13,13 +13,12 @@
 
 ## Contents
 
-✔ Squared checkboxes for tasks  
-✔ Wide area for tasks list  
-✔ A little emphasis on the task time  
-✔ Task time improvements for Todoist Foundations  
-✔ Smaller project circles  
-✔ Smaller emojis  
-✔ Using PT Sans and PT Mono from Google Fonts  
+- ✨ New One Dark theme  
+- ☑️ Squared checkboxes for tasks  
+- 💅 Task details improvements for Foundations  
+- 🔴 Smaller project circles  
+- 🙋‍♂ Smaller emojis  
+- 📄 Uses fonts [PT Sans]() and [PT Mono]()
 
 ## Installation
 
@@ -33,6 +32,10 @@ git clone https://github.com/thiagobraga/todoist-userstyles
 cd todoist-userstyles
 make
 ```
+
+If you are using VSCode, you can <kbd>Ctrl/Cmd</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> > `Run Build Task` > <kbd>Enter</kbd> and start code.
+
+Now you are able to drag and drop `theme.user.css` file at root directory to Chrome, install it with Stylus extension and enable Live Reload.
 
 ## Screenshots
 
@@ -51,3 +54,7 @@ make
     alt="Better Todoist by @bragasociopata"
     height="550">
 </p>
+
+## TODO
+
+- [ ] Update Screenshots
