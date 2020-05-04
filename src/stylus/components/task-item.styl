@@ -1,0 +1,19 @@
+.task_item
+  .task_item_details
+    .task_item_details_bottom
+      margin-top 0
+
+  .text
+    line-height initial
+
+  .checker
+    padding-top 0
+
+  &:hover
+    .task_item_actions
+      padding-left 0
+      > :not(.menu)
+        display none !important
+
+.theme_dark .task_item:hover .task_item_actions
+  background #252a33
