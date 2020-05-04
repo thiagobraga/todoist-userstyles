@@ -1,0 +1,27 @@
+//
+// Custom checkbox
+//
+.ist_checkbox
+
+  // Square checkboxes, just as it was in older versions.
+  body .priority_1 &
+  body .priority_2 &
+  body .priority_3 &
+  body .priority_4 &
+    border-radius 0
+
+  // Transparent background for checkboxes...
+  .priority_1 &
+  .priority_2 &
+  .priority_3 &
+  .priority_4 &
+    background-color transparent
+
+  // Decrease border of the checkboxes of tasks with priority.
+  // And also, leaving the size of checkboxes equal to tasks without priority.
+  body .priority_2 &
+  body .priority_3 &
+  body .priority_4 &
+    border-width 1px !important
+    width 16px
+    height 16px
